@@ -1,0 +1,39 @@
+.slider{
+  position: relative;
+  overflow: hidden;
+  &--most-read{
+    height: 35vw;
+    @media only screen and (max-width: $break-point-sm){
+      height: 90vw;
+    }
+  }
+  &__arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    transform: translateY(-50%);
+    &--left{
+      left: 1rem;
+    }
+    &--right{
+      right: 1rem;
+    }
+
+  }
+  &__img{
+    width: 50%;
+  //  display: inline;
+    position: absolute;
+    top: 0;
+    // float: left;
+    transition: left .4s;
+
+    &--most-read{
+      width: 100%;
+    }
+    @media only screen and (max-width: $break-point-sm){
+      width: 100%;
+    }
+
+  }
+}

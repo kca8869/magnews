@@ -1,0 +1,16 @@
+@mixin respond ($break-point){
+  @if $break-point==lg{
+    @media only screen and (max-width: 68.75em){
+      grid-column: center-start / center-end;
+
+    }
+  }
+  @if $break-point==sm{
+    @media only screen and (max-width: 50em){
+      grid-column: center-start / center-end;
+    }
+    @media only screen and (max-width: 37.5em){
+      grid-template-columns: 1fr;
+    }
+  }
+}

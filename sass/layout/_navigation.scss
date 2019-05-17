@@ -1,0 +1,135 @@
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  &--fixed-nav{
+    @media only screen and (max-width: $break-point-sm){
+     flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background-color: var(--color-primary);
+      transition: $transition-default;
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+
+  &__logo{
+    padding: 2rem;
+    display: none;
+    @media only screen and (max-width: $break-point-sm){
+      display: block;
+    }
+  }
+  &__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    &--trending-nav{
+
+    }
+
+    &--fixed-nav{
+      @media only screen and (max-width: $break-point-sm){
+        flex-direction: column;
+
+      }
+    }
+    &--page{
+      color: var(--color-light-text);
+
+    }
+  }
+  &__item{
+    padding: .5rem;
+    border: 1px solid var(--color-light-text);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    &--trending{
+      background-color: var(--color-white);
+      &--active{
+        background-color: var(--color-secondary);
+        padding: 1.5rem;
+        border: none;
+        color: var(--color-white);
+        transition: $transition-default;
+
+        &:hover a{
+          color: inherit !important;
+        }
+
+        &::after{
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border-top: 2rem solid var(--color-secondary);
+          border-left: 2rem solid transparent;
+          border-right: 2rem solid transparent;
+          transition: $transition-default;
+          position: absolute;
+          top: 100%;
+          left: .9rem;
+
+        }
+      }
+    }
+    &--fixed-nav{
+      padding: 1.5rem;
+      border: none;
+      position: relative;
+      &:hover{
+        background-color: rgba(255,255,255,.2);
+      }
+      &--active{
+        background-color: var(--color-secondary);
+        padding: 1.5rem;
+        border: none;
+
+      }
+
+    }
+    &--page{
+      padding: .5rem 1.5rem;
+        border-color: currentColor;
+        &--active{
+          background-color: var(--color-secondary);
+          color: var(--color-white);
+          &:hover{
+            color: inherit !important;
+          }
+        }
+        &:hover{
+          color: var(--color-secondary);
+        }
+    }
+  }
+  &__link{
+    &,
+    &:link,
+    &:visited{
+      text-decoration: none;
+      color: inherit;
+      text-transform: uppercase;
+      transition: $transition-default;
+      &:hover{
+        color: var(--color-secondary);
+      }
+
+    }
+    &--fixed-nav{
+
+      &:hover{
+        color: inherit !important;
+      }
+    }
+
+  }
+
+
+
+}

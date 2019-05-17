@@ -1,0 +1,25 @@
+:root{
+  --color-primary: #07090C;
+  --color-white: #fff;
+  --color-secondary:#EF233C;
+  --color-light-text:#ccc;
+  --color-section-title:#222222;
+}
+$color-secondary:#EF233C;
+$transition-default: all .4s;
+$grid-row-gap: 2rem;
+%full-width{
+  grid-column: full-start / full-end;
+}
+%center-width{
+  grid-column: center-start / center-end;
+}
+%two-thirds-width{
+  grid-column: col-start / col-end 6;
+}
+%one-third-width{
+  grid-column: col-start 7 / center-end;
+
+}
+$break-point-lg: 68.75em;
+$break-point-sm: 50em;

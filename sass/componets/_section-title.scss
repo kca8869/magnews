@@ -1,0 +1,19 @@
+.section-title{
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 2px solid var(--color-light-text);
+  &__name{
+    padding: 1.5rem 2rem;
+    background-color: var(--color-section-title);
+    color: var(--color-white);
+    text-transform: uppercase;
+  }
+
+  &__triangle{
+    height: 0;
+    width: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid var(--color-light-text);
+
+  }
+}

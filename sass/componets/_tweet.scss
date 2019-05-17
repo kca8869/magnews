@@ -1,0 +1,52 @@
+.tweet{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  &__item{
+    display: flex;
+    align-items: flex-start;
+    //justify-content: space-between;
+  }
+
+  &__icon-box{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--color-light-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 2rem;
+    fill: var(--color-white);
+  }
+
+  &__text{
+    padding: 0 1rem;
+  }
+  &__link{
+    &,
+    &:link,
+    &:visited{
+      color: var(--color-primary);
+
+    }
+    &--footer{
+      &,
+      &:link,
+      &:visited{
+        color: var(--color-white);
+      }
+    }
+
+      &:hover,
+      &:focus{
+        color: var(--color-secondary);
+      }
+
+    }
+
+}

@@ -1,0 +1,29 @@
+{
+  "name": "magnews2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel watch:sass devserver",
+    "compile:sass": "node-sass sass/main.scss css/styles.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions \" css/styles.comp.css -o css/styles.prefix.css ",
+    "compress:css": "node-sass css/styles.prefix.css css/styles.css --output-style compressed",
+    "compress:js": "uglifyjs js/main.js -c -o js/main.min.js",
+    "build": "npm-run-all compile:sass prefix:css compress:css compress:js"
+  },
+  "author": "Kevin",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "minify": "^3.0.5",
+    "node-minify": "^3.1.1",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1",
+    "uglify-js": "^3.4.5"
+  },
+  "dependencies": {}
+}

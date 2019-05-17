@@ -1,0 +1,110 @@
+.top-stories{
+  @extend %full-width;
+ //display: grid;
+  display: block;
+  overflow: hidden;
+ //grid-template-columns: 1fr 1fr;
+  //grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  //grid-template-rows: 50rem;
+  margin-top: -$grid-row-gap;
+  position: relative;
+  height: 40vw;
+  @media only screen and (max-width: $break-point-sm){
+    height: 80vw;
+  }
+}
+
+.trending-posts{
+  @extend %center-width;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: $grid-row-gap;
+  &__sm{
+    @extend %center-width;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: $grid-row-gap;
+  }
+
+  &__header{
+    @extend %center-width;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid var(--color-light-text);
+  }
+}
+.main-content{
+  @extend %two-thirds-width;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));;
+  grid-gap: $grid-row-gap;
+  @include respond(sm);
+}
+
+  .main-content-lower{
+
+    &__title{
+      @extend %two-thirds-width;
+      @include respond(sm);
+    }
+    &__large-section{
+      @extend %two-thirds-width;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-gap: $grid-row-gap;
+      @include respond(sm);
+    }
+    &__small-section{
+      @extend %two-thirds-width;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      grid-gap: $grid-row-gap;
+      @include respond(sm);
+    }
+  }
+
+
+
+.sidebar{
+  margin-top: 4rem;
+  @extend %one-third-width;
+  grid-row: 8 / 11;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $grid-row-gap;
+  align-content: flex-start;
+  @include respond(sm);
+}
+
+.videos{
+  @extend %center-width;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: $grid-row-gap;
+
+
+  &__title{
+    @extend %center-width;
+  }
+}
+
+.popular-posts{
+  @extend %two-thirds-width;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $grid-row-gap;
+  @include respond(lg);
+  &__header{
+    @extend %two-thirds-width;
+    @include respond(lg);
+  }
+  &__sidebar{
+    @extend %one-third-width;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: $grid-row-gap;
+    align-content: start;
+    @include respond(lg)
+  }
+}

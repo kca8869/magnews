@@ -1,0 +1,12 @@
+.section-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $grid-row-gap;
+
+
+  &__title{
+    &--lg{
+      grid-column: 1 / span 2;
+    }
+  }
+}

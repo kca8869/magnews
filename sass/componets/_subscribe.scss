@@ -1,0 +1,40 @@
+.subscribe {
+  padding: 3rem;
+  background-color: var(--color-primary);
+  text-align: center;
+
+  &--footer{
+    padding: 0;
+    text-align: left;
+  }
+  &__header {
+
+    color: var(--color-white);
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-size: 1.8rem;
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    &--footer{
+      display: block;
+      & > *{
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  &__email {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  &__btn {
+    &--footer{
+      display: inline-block;
+    }
+  }
+}

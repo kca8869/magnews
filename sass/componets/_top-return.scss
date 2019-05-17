@@ -1,0 +1,13 @@
+.top-return{
+  position: fixed;
+  bottom: 5rem;
+  right: 2vw;
+  z-index: 5;
+  box-shadow: 0 0 1rem 1rem rgba(255,255,255,.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: $transition-default;
+  &__link{
+
+  }
+}

@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Magnews | Template </title>
+</head>
+<body>
+  <div class="container">
+    <div class="container container--full-width">
+      <div class="header__top" id="header-top">
+        <!-- begin site-nav -->
+        <nav class="navigation navigation--site-nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">about us</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">contact</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">advertisement</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">privacy</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#icon-log-out"></use>
+                </svg>
+                login
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end site-nav -->
+        <!-- begin social nav -->
+        <nav class="navigation navigation--social-nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">
+                <svg class="icon icon--social">
+                  <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  <svg class="icon icon--social">
+                    <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  <svg class="icon icon--social">
+                    <use xlink:href="img/sprite.svg#icon-google"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  <svg class="icon icon--social">
+                    <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  <svg class="icon icon--social">
+                    <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </li>
+          </ul>
+        </nav>
+        <!-- end social nav -->
+      </div>
+    </div>
+    <!-- end of header__top -->
+    <!-- begin header__logo       -->
+
+    <div class="header__logo">
+      <img src="img/logo.png" alt="magnews logo" class="header__logo--img">
+    </div>
+    <!-- begin header fixed -->
+    <div class="container container--full-width-dark container--header-fixed">
+      <div class="header__fixed">
+        <!-- begin mobile nav toggle -->
+          <!-- styled in header file -->
+        <input type="checkbox" class="navi-toggle__checkbox" id="navi-toggle__checkbox">
+        <label for="navi-toggle__checkbox" class="navi-toggle__label">
+          <span class="navi-toggle__hamburger"></span>
+        </label>
+        <!-- end navi-toggle -->
+        <!-- begin fixed nav -->
+        <nav class="navigation navigation--fixed-nav">
+          <img src="img/logo-alt.png" alt="" class="navigation__logo">
+          <ul class="navigation__list navigation__list--fixed-nav">
+            <li class="navigation__item  navigation__item--fixed-nav--active">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">home</a>
+            </li>
+            <li class="navigation__item navigation__item--fixed-nav">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">news</a>
+            </li>
+            <li class="navigation__item navigation__item--fixed-nav">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">sport</a>
+            </li>
+            <li class="navigation__item navigation__item--fixed-nav">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">lifestyle</a>
+            </li>
+            <li class="navigation__item navigation__item--fixed-nav">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">fashion</a>
+            </li>
+            <li class="navigation__item navigation__item--fixed-nav">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">music</a>
+            </li>
+            <li class="navigation__item navigation__item--fixed-nav">
+              <a href="#" class="navigation__link navigation__link--fixed-nav">business</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end fixed nav -->
+        <!-- begin searchbar -->
+        <div class="searchbar">
+          <input type="checkbox" id="searchbar__checkbox" class="searchbar__checkbox">
+          <label for="searchbar__checkbox" class="searchbar__label">
+            <svg class="icon icon--search">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </label>
+          <form class="searchbar__search-box">
+            <input type="text" name="" placeholder="search" class="searchbar__text">
+            <button type="submit" name="button" class="searchbar__btn btn">search</button>
+          </form>
+        </div>
+        <!-- end searchbar -->
+      </div>
+    </div>
+    <!-- end of header fixed -->
+    <!-- begin top stories -->
+    <div class="top-stories slider" id="top-stories">
+      <!-- begin slider arrows -->
+      <div  class="slider__arrow slider__arrow--left btn btn--primary">◄</div>
+      <div  class="slider__arrow slider__arrow--right btn btn--primary">►</div>
+      <!-- end slider arrows -->
+      <div class="story-link slider__img slider__img--topstories">
+        <div class="story-link__img-box">
+          <img src="img/img-lg-3.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h1 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h1>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link slider__img slider__img--topstories">
+        <div class="story-link__img-box">
+          <img src="img/img-lg-2.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h1 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h1>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="story-link slider__img slider__img--topstories">
+        <div class="story-link__img-box">
+          <img src="img/img-lg-1.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h1 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h1>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- end of top stories -->
+    <!-- begin trending posts header -->
+    <div class="trending-posts__header">
+      <div class="section-title">
+        <div class="section-title__name">
+          trending posts
+        </div>
+        <div class="section-title__triangle"></div>
+      </div>
+      <!-- begin trending nav -->
+      <nav class="navigation navigation--trending-nav">
+        <ul class="navigation__list navigation__list--trending-nav">
+          <li class="navigation__item navigation__item--trending navigation__item--trending--active">
+            <a href="#" class="navigation__link navigation__link--trending">all</a>
+          </li>
+          <li class="navigation__item navigation__item--trending">
+            <a href="#" class="navigation__link navigation__link--trending">news</a>
+          </li>
+          <li class="navigation__item navigation__item--trending">
+            <a href="#" class="navigation__link navigation__link--trending">sport</a>
+          </li>
+          <li class="navigation__item navigation__item--trending">
+            <a href="#" class="navigation__link navigation__link--trending">music</a>
+          </li>
+          <li class="navigation__item navigation__item--trending">
+            <a href="#" class="navigation__link navigation__link--trending">business</a>
+          </li>
+          <li class="navigation__item navigation__item--trending">
+            <a href="#" class="navigation__link navigation__link--trending">lifstyle</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end trending nav -->
+    </div>
+    <!-- end trending posts header -->
+    <!-- begin trending posts -->
+    <div class="trending-posts">
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-1.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-2 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-2.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-2 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-3.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-4.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of trending posts -->
+    <!-- begin trending posts small -->
+    <div class="trending-posts__sm">
+      <div class="story-link story-link--sm">
+        <div class="story-link__img-box story-link__img-box--sm">
+          <img src="img/img-widget-1.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--sm">
+          <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+          <span class="story-link__type story-link__type--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+          <div class="story-link__details story-link__details--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--sm">
+        <div class="story-link__img-box story-link__img-box--sm">
+          <img src="img/img-widget-2.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--sm">
+          <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+          <span class="story-link__type story-link__type--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+          <div class="story-link__details story-link__details--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--sm">
+        <div class="story-link__img-box story-link__img-box--sm">
+          <img src="img/img-widget-3.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--sm">
+          <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+          <span class="story-link__type story-link__type--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+          <div class="story-link__details story-link__details--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--sm">
+        <div class="story-link__img-box story-link__img-box--sm">
+          <img src="img/img-widget-4.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--sm">
+          <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+          <span class="story-link__type story-link__type--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+          <div class="story-link__details story-link__details--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--sm">
+        <div class="story-link__img-box story-link__img-box--sm">
+          <img src="img/img-widget-5.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--sm">
+          <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+          <span class="story-link__type story-link__type--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+          <div class="story-link__details story-link__details--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--sm">
+        <div class="story-link__img-box story-link__img-box--sm">
+          <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--sm">
+          <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+          <span class="story-link__type story-link__type--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+          <div class="story-link__details story-link__details--sm">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of trending posts small -->
+    <!-- begin main content -->
+    <div class="main-content">
+      <div class="section-container">
+        <!-- begin main content section title -->
+        <div class="section-title">
+          <div class="section-title__name">
+            news
+          </div>
+          <div class="section-title__triangle"></div>
+        </div>
+        <!-- end main content section titles -->
+        <!-- begin main contetn story links med -->
+        <div class="story-link story-link--med">
+          <div class="story-link__img-box">
+            <img src="img/img-md-4.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--med">
+            <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+            <span class="story-link__type story-link__type--med">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui, ne accommodare theophrastus reprehendunt vel. Et commodo menandri eam.</p>
+          </div>
+        </div>
+        <!-- end main content story-links med -->
+        <!-- begin main content story links sm -->
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="section-container">
+        <!-- begin main content section title -->
+        <div class="section-title">
+          <div class="section-title__name">
+            sport
+          </div>
+          <div class="section-title__triangle"></div>
+        </div>
+        <!-- end main content section titles -->
+        <!-- begin main contetn story links med -->
+        <div class="story-link story-link--med">
+          <div class="story-link__img-box">
+            <img src="img/img-md-4.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--med">
+            <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+            <span class="story-link__type story-link__type--med">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui, ne accommodare theophrastus reprehendunt vel. Et commodo menandri eam.</p>
+          </div>
+        </div>
+        <!-- end main content story-links med -->
+        <!-- begin main content story links sm -->
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- end main content story links sm -->
+    </div>
+    <!-- end main content -->
+
+    <!-- begin main content lower -->
+    <!-- begin main-content-lower-title -->
+      <div class="section-title main-content-lower__title">
+        <div class="section-title__name">
+          news
+        </div>
+        <div class="section-title__triangle"></div>
+      </div>
+      <!-- end main-content-lower-title -->
+    <!-- begin main content lower large-section -->
+      <div class="main-content-lower__large-section">
+      <div class="section-container section-container__description-box">
+        <div class="story-link story-link--med">
+          <div class="story-link__img-box">
+            <img src="img/img-md-1.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--med">
+            <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+            <span class="story-link__type story-link__type--med">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui, ne accommodare theophrastus reprehendunt vel. Et commodo menandri eam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section-container section-container__description-box">
+        <div class="story-link story-link--med">
+          <div class="story-link__img-box">
+            <img src="img/img-md-4.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--med">
+            <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+            <span class="story-link__type story-link__type--med">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui, ne accommodare theophrastus reprehendunt vel. Et commodo menandri eam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end main content lower large section -->
+    <!-- begin main content-lower small section -->
+    <div class="main-content-lower__small-section">
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-2.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-3.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link story-link--med">
+        <div class="story-link__img-box">
+          <img src="img/img-md-1.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--med">
+          <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+          <span class="story-link__type story-link__type--med">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end main content lower-small section -->
+    <!-- end main content lower -->
+    <!-- begin sidebar -->
+    <div class="sidebar">
+      <!-- begin stay connected -->
+      <div class="stay-connected">
+        <h3 class="heading-3 stay-connected__title">stay connected</h3>
+        <div class="stay-connected__item stay-connected__item--1">
+          <svg class="stay-connected__icon">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+          <p class="stay-connected__name">facebook</p>
+        </div>
+        <div class="stay-connected__item stay-connected__item--2">
+          <svg class="stay-connected__icon">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+          <p class="stay-connected__name">facebook</p>
+        </div>
+        <div class="stay-connected__item stay-connected__item--3">
+          <svg class="stay-connected__icon">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+          <p class="stay-connected__name">facebook</p>
+        </div>
+        <div class="stay-connected__item stay-connected__item--4">
+          <svg class="stay-connected__icon">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+          <p class="stay-connected__name">facebook</p>
+        </div>
+        <div class="stay-connected__item stay-connected__item--5">
+          <svg class="stay-connected__icon">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+          <p class="stay-connected__name">facebook</p>
+        </div>
+        <div class="stay-connected__item stay-connected__item--6">
+          <svg class="stay-connected__icon">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+          <p class="stay-connected__name">facebook</p>
+        </div>
+      </div>
+      <!-- end of stay-connected -->
+      <!-- begin subscribe -->
+      <div class="subscribe">
+        <h2 class="subscribe__header">subscribe to the newsletter</h2>
+        <form class="subscribe__form" action="index.html" method="post">
+          <input type="email" class="subscribe__email" id="subscribe__email" placeholder="E-mail Address">
+          <button type="submit" class="btn subscribe__btn">subscribe</button>
+        </form>
+      </div>
+      <!-- end subscribe -->
+      <!-- begin most read -->
+      <div class="section-container">
+        <!-- begin most read section title -->
+        <h3 class="heading-3">most read</h3>
+        <!-- end most read section titles -->
+        <!-- begin most read story links med -->
+        <div class="slider slider--most-read" id="most-read">
+          <!-- begin slider arrows -->
+          <div class="slider__arrow slider__arrow--left btn btn--primary">◄</div>
+          <div class="slider__arrow slider__arrow--right btn btn--primary">►</div>
+          <!-- end slider arrows -->
+          <div class="story-link story-link--med slider__img slider__img--most-read">
+            <div class="story-link__img-box">
+              <img src="img/img-md-4.jpg" alt="people with cameras" class="story-link__img">
+            </div>
+            <div class="story-link__items-box story-link__items-box--med">
+              <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+              <span class="story-link__type story-link__type--med">
+                <svg class="icon story-link__icon">
+                  <use xlink:href="img/sprite.svg#icon-camera"></use>
+                </svg>
+              </span>
+              <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+              <div class="story-link__details">
+                <svg class="icon story-link__icon">
+                  <use xlink:href="img/sprite.svg#icon-clock"></use>
+                </svg>
+                <p class="story-link__date">JANUARY 31, 2017</p>
+                <svg class="icon story-link__icon">
+                  <use xlink:href="img/sprite.svg#icon-chat"></use>
+                </svg>
+                <p class="story-link__text">33</p>
+              </div>
+            </div>
+          </div>
+          <div class="story-link story-link--med slider__img slider__img--most-read">
+            <div class="story-link__img-box">
+              <img src="img/img-md-1.jpg" alt="people with cameras" class="story-link__img">
+            </div>
+            <div class="story-link__items-box story-link__items-box--med">
+              <a href="#" class="btn story-link__btn story-link__btn--med">news</a>
+              <span class="story-link__type story-link__type--med">
+                <svg class="icon story-link__icon">
+                  <use xlink:href="img/sprite.svg#icon-camera"></use>
+                </svg>
+              </span>
+              <h2 class="heading-1 story-link__title story-link__title--med"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+              <div class="story-link__details">
+                <svg class="icon story-link__icon">
+                  <use xlink:href="img/sprite.svg#icon-clock"></use>
+                </svg>
+                <p class="story-link__date">JANUARY 31, 2017</p>
+                <svg class="icon story-link__icon">
+                  <use xlink:href="img/sprite.svg#icon-chat"></use>
+                </svg>
+                <p class="story-link__text">33</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end most read story-links med -->
+        <!-- begin most read story links sm -->
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-6.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-4.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <!-- end most read story links sm -->
+      </div>
+      <!-- end most read -->
+    </div>
+    <!-- end of sidebar -->
+    <!-- videos title -->
+    <div class="section-title videos__title">
+      <div class="section-title__name">
+        videos
+      </div>
+      <div class="section-title__triangle"></div>
+    </div>
+    <!-- end video title -->
+    <!-- begin videos section -->
+    <div class="videos">
+      <!-- video links -->
+      <div class="story-link">
+        <div class="story-link__img-box">
+          <img src="img/img-thumb-1.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clapperboard"></use>
+            </svg>
+          </span>
+          <h2 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link">
+        <div class="story-link__img-box">
+          <img src="img/img-thumb-2.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clapperboard"></use>
+            </svg>
+          </span>
+          <h2 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-link">
+        <div class="story-link__img-box">
+          <img src="img/img-thumb-3.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clapperboard"></use>
+            </svg>
+          </span>
+          <h2 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <!-- end video links -->
+    </div>
+    <!-- end videos section -->
+    <!-- popluar posts header -->
+    <div class="popular-posts__header">
+      <div class="section-title ">
+        <div class="section-title__name">
+          popluar posts
+        </div>
+        <div class="section-title__triangle"></div>
+      </div>
+    </div>
+    <!-- end popular posts header -->
+    <!-- popular posts -->
+    <div class="popular-posts">
+        <div class="story-link story-link--side">
+          <div class="story-link__img-box story-link__img-box--side">
+            <img src="img/img-md-4.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--side">
+            <a href="#" class="btn story-link__btn story-link__btn--side">news</a>
+            <span class="story-link__type story-link__type--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--side"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details story-link__details--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui..</p>
+          </div>
+        </div>
+        <div class="story-link story-link--side">
+          <div class="story-link__img-box story-link__img-box--side">
+            <img src="img/img-md-2.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--side">
+            <a href="#" class="btn story-link__btn story-link__btn--side">news</a>
+            <span class="story-link__type story-link__type--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--side"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details story-link__details--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui..</p>
+          </div>
+        </div>
+        <div class="story-link story-link--side">
+          <div class="story-link__img-box story-link__img-box--side">
+            <img src="img/img-md-1.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--side">
+            <a href="#" class="btn story-link__btn story-link__btn--side">news</a>
+            <span class="story-link__type story-link__type--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--side"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details story-link__details--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui..</p>
+          </div>
+        </div>
+        <div class="story-link story-link--side">
+          <div class="story-link__img-box story-link__img-box--side">
+            <img src="img/img-md-3.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--side">
+            <a href="#" class="btn story-link__btn story-link__btn--side">news</a>
+            <span class="story-link__type story-link__type--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h2 class="heading-1 story-link__title story-link__title--side"><a href="#" class="heading-link heading-link--primary">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h2>
+            <div class="story-link__details story-link__details--side">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+            <p class="story-link__paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui..</p>
+          </div>
+        </div>
+        <!-- begin page nav -->
+        <nav class="navigation navigation--page">
+          <ul class="navigation__list navigation__list--page">
+            <li class="navigation__item navigation__item--page navigation__item--page--active">
+              <a href="#" class="navigation__link navigation__link--page navigation__link--page">1</a>
+            </li>
+            <li class="navigation__item navigation__item--page">
+              <a href="#" class="navigation__link navigation__link--page">2</a>
+            </li>
+            <li class="navigation__item navigation__item--page">
+              <a href="#" class="navigation__link navigation__link--page">3</a>
+            </li>
+            <li class="navigation__item navigation__item--page">
+              <a href="#" class="navigation__link navigation__link--page">►</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end page nav -->
+    </div>
+    <!-- end popular posts -->
+    <!-- begin popluar posts sidebar -->
+    <div class="popular-posts__sidebar">
+      <!-- begin featured posts -->
+      <h3 class="heading-3">featured posts</h3>
+      <div class="story-link">
+        <div class="story-link__img-box">
+          <img src="img/img-thumb-1.jpg" alt="people with cameras" class="story-link__img">
+        </div>
+        <div class="story-link__items-box story-link__items-box--lg">
+          <a href="#" class="btn story-link__btn">news</a>
+          <span class="story-link__type">
+            <svg class="icon story-link__icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-camera"></use>
+            </svg>
+          </span>
+          <h1 class="heading-2 story-link__title"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h1>
+          <div class="story-link__details">
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="story-link__date">JANUARY 31, 2017</p>
+            <svg class="icon story-link__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <p class="story-link__text">33</p>
+          </div>
+        </div>
+      </div>
+      <!-- end featured posts -->
+      <!-- begin flicker photos -->
+      <h3 class="heading-3">flicker photos</h3>
+      <div class="gallery">
+        <figure class="gallery__item">
+          <img src="img/img-widget-3.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-4.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-5.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-6.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-7.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-8.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-9.jpg" alt="" class="gallery__img">
+        </figure>
+        <figure class="gallery__item">
+          <img src="img/img-widget-10.jpg" alt="" class="gallery__img">
+        </figure>
+      </div>
+      <!-- end flicker photo -->
+      <!-- begin tweets -->
+      <h3 class="heading-3">recent tweets</h3>
+      <div class="tweet">
+        <div class="tweet__item">
+          <div class="tweet__icon-box">
+            <svg class="tweet__icon">
+              <use xlink:href="img/sprite.svg#icon-twitter"></use>
+            </svg>
+          </div>
+          <p class="tweet__text">
+            <a href="#" class="tweet__link">@magnews</a>
+            Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis
+            <a href="#" class="tweet__link">https://t.co/DwsTbsmxTP</a>
+          </p>
+        </div>
+        <div class="tweet__item">
+          <div class="tweet__icon-box">
+            <svg class="tweet__icon">
+              <use xlink:href="img/sprite.svg#icon-twitter"></use>
+            </svg>
+          </div>
+          <p class="tweet__text">
+            <a href="#" class="tweet__link">@magnews</a>
+            Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis
+            <a href="#" class="tweet__link">https://t.co/DwsTbsmxTP</a>
+          </p>
+        </div>
+        <div class="tweet__item">
+          <div class="tweet__icon-box">
+            <svg class="tweet__icon">
+              <use xlink:href="img/sprite.svg#icon-twitter"></use>
+            </svg>
+          </div>
+          <p class="tweet__text">
+            <a href="#" class="tweet__link">@magnews</a>
+            Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis
+            <a href="#" class="tweet__link">https://t.co/DwsTbsmxTP</a>
+          </p>
+        </div>
+      </div>
+      <!-- end tweets -->
+    </div>
+    <!-- end popular posts sidebar -->
+    <!-- begin footer container-->
+    <div class="container container--full-width-dark">
+      <!-- begina footer  -->
+      <footer class="footer">
+      <!-- begin footer column 1 -->
+      <div class="footer__column">
+        <img src="img/logo-alt.png" alt="" class="footer__logo">
+        <p class="paragraph">Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui.</p>
+        <!-- begin stay connected footer -->
+        <h3 class="heading-3 heading-3--footer">follow us</h3>
+        <div class="stay-connected stay-connected--footer">
+          <div class="stay-connected__item stay-connected__item--footer stay-connected__item--1">
+            <svg class="stay-connected__icon">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
+          <div class="stay-connected__item stay-connected__item--footer stay-connected__item--2">
+            <svg class="stay-connected__icon">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
+          <div class="stay-connected__item stay-connected__item--footer stay-connected__item--3">
+            <svg class="stay-connected__icon">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
+          <div class="stay-connected__item stay-connected__item--footer stay-connected__item--4">
+            <svg class="stay-connected__icon">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
+          <div class="stay-connected__item stay-connected__item--footer stay-connected__item--5">
+            <svg class="stay-connected__icon">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
+          <div class="stay-connected__item stay-connected__item--footer stay-connected__item--6">
+            <svg class="stay-connected__icon">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
+          </div>
+        </div>
+        <!-- end stay connected footer -->
+        <!-- begin subscribe in footer -->
+        <div class="subscribe subscribe--footer">
+          <h2 class="subscribe__header">subscribe to the newsletter</h2>
+          <form class="subscribe__form subscribe__form--footer" action="index.html" method="post">
+            <input type="email" class="subscribe__email" id="subscribe__email" placeholder="E-mail Address">
+            <button type="submit" class="btn subscribe__btn subscribe__btn--footer">subscribe</button>
+          </form>
+        </div>
+        <!-- end subscribe in footer -->
+      </div>
+      <!-- end footer column 1 -->
+      <!-- begin footer column 2 -->
+      <div class="footer__column">
+        <!-- begin featured posts footer -->
+        <h3 class="heading-3 heading-3--footer">featured posts</h3>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-1.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-3.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-link story-link--sm">
+          <div class="story-link__img-box story-link__img-box--sm">
+            <img src="img/img-widget-2.jpg" alt="people with cameras" class="story-link__img">
+          </div>
+          <div class="story-link__items-box story-link__items-box--sm">
+            <a href="#" class="btn story-link__btn story-link__btn--sm">news</a>
+            <span class="story-link__type story-link__type--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-camera"></use>
+              </svg>
+            </span>
+            <h3 class="heading-1 story-link__title story-link__title--sm"><a href="#" class="heading-link heading-link--light">DUIS URBANITAS EAM IN, TEMPOR CONSEQUAT.</a> </h3>
+            <div class="story-link__details story-link__details--sm">
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-clock"></use>
+              </svg>
+              <p class="story-link__date">JANUARY 31, 2017</p>
+              <svg class="icon story-link__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <p class="story-link__text">33</p>
+            </div>
+          </div>
+        </div>
+        <!-- end featured posts footer -->
+      </div>
+      <!-- end footer column 2 -->
+      <!-- begin footer column 3 -->
+      <div class="footer__column">
+        <!-- begin flicker photos footer -->
+        <h3 class="heading-3 heading-3--footer">flicker photos</h3>
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="img/img-widget-3.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-4.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-5.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-6.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-7.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-8.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-9.jpg" alt="" class="gallery__img">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/img-widget-10.jpg" alt="" class="gallery__img">
+          </figure>
+        </div>
+        <!-- end flicker photos footer -->
+        <!-- begin tweets footer -->
+        <h3 class="heading-3 heading-3--footer">recent tweets</h3>
+        <div class="tweet">
+          <div class="tweet__item">
+            <div class="tweet__icon-box">
+              <svg class="tweet__icon">
+                <use xlink:href="img/sprite.svg#icon-twitter"></use>
+              </svg>
+            </div>
+            <p class="tweet__text">
+              <a href="#" class="tweet__link tweet__link--footer">@magnews</a>
+              Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis
+              <a href="#" class="tweet__link tweet__link--footer">https://t.co/DwsTbsmxTP</a>
+            </p>
+          </div>
+        </div>
+        <!-- end tweets footer -->
+      </div>
+      <!-- end footer column 3 -->
+    </footer>
+    <!-- end footer  -->
+    <!-- begin footer bottom row -->
+    <div class="footer__bottom-row">
+      <p class="paragraph paragraph--footer">Copyright ©2018 All rights reserved | This template is made with
+        <svg class="icon">
+          <use xlink:href="img/sprite.svg#icon-heart-outlined"></use>
+        </svg>
+        by <a href="#" class="link link--footer">Colorlib</a></p>
+        <nav class="navigation navigation--footer">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">about us</a> </li>
+            <li class="navigation__item"><a href="#" class="navigation__link">contact us</a> </li>
+            <li class="navigation__item"><a href="#" class="navigation__link">advertisement</a> </li>
+            <li class="navigation__item"><a href="#" class="navigation__link">policy</a> </li>
+          </ul>
+        </nav>
+    </div>
+    <!-- end footer bottom row -->
+  </div>
+    <!-- end footer container-->
+    <!-- begin top return -->
+    <div class="top-return">
+      <a href="#header-top" class="btn btn--primary top-return__link">↑</a>
+    </div>
+    <!-- end top return -->
+  </div>
+  <!-- end container -->
+  <script src="js/main.js"></script>
+</body>
+</html>

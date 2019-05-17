@@ -1,0 +1,25 @@
+.footer{
+  @extend %center-width;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: grid;
+  grid-gap: $grid-row-gap;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  padding-top: 5rem;
+  &__column{
+    color: var(--color-white);
+    align-content: start;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: $grid-row-gap;
+  }
+  &__bottom-row{
+    @extend %center-width;
+    color: var(--color-white);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+  }
+}

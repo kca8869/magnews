@@ -1,0 +1,90 @@
+.heading-1{
+
+}
+
+.heading-3{
+  color: var(--color-light-text);
+  text-transform: uppercase;
+  justify-self: center;
+
+  &--footer{
+    justify-self: start;
+    color: var(--color-white);
+  }
+}
+.heading-link{
+  &,
+  &:link,
+  &:visited{
+    text-decoration: none;
+    transition: $transition-default;
+  }
+  &--light{
+    color: var(--color-white);
+    &:hover{
+      color: var(--color-light-text);
+    }
+  }
+  &--primary{
+    color: var(--color-primary);
+    &:hover{
+      color: var(--color-secondary);
+    }
+  }
+}
+
+.link{
+  &,
+  &:link,
+  &:visited{
+    text-decoration: none;
+    color: inherit;
+  }
+  &:hover,
+  &:focus{
+    color: var(--color-secondary);
+  }
+}
+
+.icon{
+  height: 1rem;
+  width: 1rem;
+  fill: currentColor;
+
+  &--social,
+  &--search{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  &--search{
+
+  }
+}
+
+.btn{
+  &,
+  &:link,
+  &:visited{
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  background-color: var(--color-secondary);
+  padding: 1rem 2rem;
+
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  transition: $transition-default;
+
+  &--primary{
+    background-color: var(--color-primary);
+  }
+  &:focus{
+    box-shadow:0 0 1rem var(--color-white) inset;
+    //transform: translateY(-3px);
+  }
+  &:hover{
+    background-color: rgba($color-secondary,.8);
+  }
+}
